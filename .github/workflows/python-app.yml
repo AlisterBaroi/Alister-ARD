@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 env:
-  APIKEY: ${{ secrets.BARD_API_KEY }}
+  BARD_API_KEY: ${{ secrets.BARD_API_KEY }}
 
 permissions:
   contents: read
